@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf9f7">
+
+  <title>Eri — つくったもの</title>
+  <meta name="description" content="Eriがつくったアプリと道具の置き場。サポート窓口とプライバシーポリシーもここに。">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="Eri — つくったもの">
+  <meta property="og:description" content="自分が困ったものだけ、道具にしています。">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- TODO: 公開URL確定後に canonical / og:url を追加する -->
+  <!-- TODO: assets/ogp.png（1200×630）を用意し、絶対URLで og:image を追加する -->
+  <!-- TODO: assets/favicon.ico と assets/apple-touch-icon.png（180×180）を用意して link 要素を追加する -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+
+  <header class="wrap hero">
+    <h1>自分が<span class="u">困ったもの</span>だけ、<br>道具にしています。</h1>
+    <p class="lede">
+      困るたびに1つ増えるので、下のリストはそのまま困りごとの記録です。
+      サポートとプライバシーポリシーも、このページにあります。
+    </p>
+  </header>
+
+  <main id="main">
+    <!--
+      アプリ追加時は article.product を丸ごと複製する。
+      URL未確定時は偽のリンクを置かず、span.todo-link のままにする。
+      アイコン画像が無い・読み込めない場合は .icon-fallback が表示される。
+    -->
+    <section class="wrap product-section" id="apps" aria-labelledby="apps-title">
+      <h2 id="apps-title">公開中</h2>
+
+      <article class="product">
+        <span class="icon" aria-hidden="true">
+          <span class="icon-fallback">C</span>
+          <img src="icons/copin.png" alt="" onerror="this.remove()">
+        </span>
+        <div class="product-body">
+          <p class="symptom">AIの回答をコピーして、次のチャットに運ぶだけで手が止まる</p>
+          <h3 class="name">Copin <span class="tag">iPhone / Mac</span></h3>
+          <p class="desc">コピーしたものを取りこぼさずに置いておいて、次に使うときそのまま渡せるクリップボード。買い切りで、iPhone と Mac のどちらでも使えます。</p>
+          <div class="links" aria-label="Copinのリンク">
+            <!-- TODO: App Store URLを設定し、a要素へ置き換える -->
+            <span class="btn primary todo-link" data-todo="App Store URL">App Store（URL準備中）</span>
+            <!-- TODO: Copinの個別サイトURLを設定し、a要素へ置き換える -->
+            <span class="btn todo-link" data-todo="個別サイトURL">個別サイト（URL準備中）</span>
+            <!-- TODO: privacy/copin.html の既存ポリシー本文を配置後、a要素へ置き換える -->
+            <span class="btn quiet todo-link" data-todo="privacy/copin.html">プライバシーポリシー（準備中）</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <span class="icon" aria-hidden="true">
+          <span class="icon-fallback">N</span>
+          <img src="icons/nowwall.png" alt="" onerror="this.remove()">
+        </span>
+        <div class="product-body">
+          <p class="symptom">画面を見られる一瞬だけ、壁紙を隠したい</p>
+          <h3 class="name">NowWall <span class="tag">Mac</span></h3>
+          <p class="desc">ふだんは好きな壁紙のまま、人に見られる場面だけ無難な一枚に切り替わります。ロック・スリープでは自動的に安全な側へ戻ります。Windows版を制作中。</p>
+          <div class="links" aria-label="NowWallのリンク">
+            <!-- TODO: Mac App Store URLを設定し、a要素へ置き換える -->
+            <span class="btn primary todo-link" data-todo="Mac App Store URL">Mac App Store（URL準備中）</span>
+            <!-- TODO: NowWallの個別サイトURLを設定し、a要素へ置き換える -->
+            <span class="btn todo-link" data-todo="個別サイトURL">個別サイト（URL準備中）</span>
+            <!-- TODO: privacy/nowwall.html の既存ポリシー本文を配置後、a要素へ置き換える -->
+            <span class="btn quiet todo-link" data-todo="privacy/nowwall.html">プライバシーポリシー（準備中）</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <span class="icon" aria-hidden="true">
+          <span class="icon-fallback">S</span>
+          <img src="icons/sakusen.png" alt="" onerror="this.remove()">
+        </span>
+        <div class="product-body">
+          <p class="symptom">テキストを載せるだけの動画に、編集アプリを立ち上げている</p>
+          <h3 class="name">SakuSen <span class="tag">iPhone</span></h3>
+          <p class="desc">撮った動画を読み込んで文字を置くだけ、1分で書き出せます。テロップだけの短い動画のために、重い編集アプリを開かなくて済みます。</p>
+          <div class="links" aria-label="SakuSenのリンク">
+            <!-- TODO: App Store URLを設定し、a要素へ置き換える -->
+            <span class="btn primary todo-link" data-todo="App Store URL">App Store（URL準備中）</span>
+            <!-- TODO: privacy/sakusen.html の既存ポリシー本文を配置後、a要素へ置き換える -->
+            <span class="btn quiet todo-link" data-todo="privacy/sakusen.html">プライバシーポリシー（準備中）</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <span class="icon" aria-hidden="true">
+          <span class="icon-fallback">海</span>
+          <img src="icons/ebikani.png" alt="" onerror="this.remove()">
+        </span>
+        <div class="product-body">
+          <p class="symptom">30秒だけ、なにも考えずに遊びたい</p>
+          <h3 class="name">エビカニゲーム <span class="tag">iPhone</span></h3>
+          <p class="desc">絵文字だけでできた反射神経ゲーム。🦞 と 🦀 を取り違えないでください。</p>
+          <div class="links" aria-label="エビカニゲームのリンク">
+            <!-- TODO: App Store URLを設定し、a要素へ置き換える -->
+            <span class="btn primary todo-link" data-todo="App Store URL">App Store（URL準備中）</span>
+            <!-- TODO: privacy/ebikani.html の既存ポリシー本文を配置後、a要素へ置き換える -->
+            <span class="btn quiet todo-link" data-todo="privacy/ebikani.html">プライバシーポリシー（準備中）</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="wrap product-section upcoming" id="soon" aria-labelledby="soon-title">
+      <h2 id="soon-title">まもなく</h2>
+
+      <article class="product">
+        <span class="icon" aria-hidden="true">
+          <span class="icon-fallback">C</span>
+          <img src="icons/calppy.png" alt="" onerror="this.remove()">
+        </span>
+        <div class="product-body">
+          <p class="symptom">さっき計算した数字を、もう一度打ち直している</p>
+          <h3 class="name">Calppy <span class="tag">iPhone・準備中</span></h3>
+          <p class="desc">計算した数字が全部あとから押せる電卓。履歴の数字をタップすると、そのまま次の式に入ります。過去の計算はローカルにだけ残ります。</p>
+          <div class="links" aria-label="Calppyのリンク">
+            <!-- TODO: privacy/calppy.html の既存ポリシー本文を配置後、a要素へ置き換える -->
+            <span class="btn quiet todo-link" data-todo="privacy/calppy.html">プライバシーポリシー（準備中）</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <span class="icon" aria-hidden="true">
+          <span class="icon-fallback">わ</span>
+          <img src="icons/wasurecha.png" alt="" onerror="this.remove()">
+        </span>
+        <div class="product-body">
+          <p class="symptom">アラームは鳴ったのに、何のためのアラームか思い出せない</p>
+          <h3 class="name">わすれちゃだめ <span class="tag">iPhone・制作中</span></h3>
+          <p class="desc">予定のかたまりごとにアラームを束ねて、残り時間を画面に出しておくアラーム。</p>
+          <div class="links" aria-label="わすれちゃだめのリンク">
+            <!-- TODO: privacy/wasurecha.html の既存ポリシー本文を配置後、a要素へ置き換える -->
+            <span class="btn quiet todo-link" data-todo="privacy/wasurecha.html">プライバシーポリシー（準備中）</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="wrap" id="other" aria-labelledby="other-title">
+      <h2 id="other-title">そのほか</h2>
+      <div class="side" aria-label="そのほかの制作物">
+        <!-- TODO: URLが分かった項目からa要素へ置き換える。不要な項目は削除する -->
+        <span class="btn todo-link" data-todo="LINEスタンプ URL">LINEスタンプ（URL準備中）</span>
+        <span class="btn todo-link" data-todo="カッティングステッカー URL">カッティングステッカー（URL準備中）</span>
+        <span class="btn todo-link" data-todo="note URL">note（URL準備中）</span>
+        <span class="btn todo-link" data-todo="Kindle URL">Kindle（URL準備中）</span>
+      </div>
+    </section>
+
+    <section class="wrap" id="support" aria-labelledby="support-title">
+      <h2 id="support-title">サポート</h2>
+      <div class="contact">
+        <h3>うまく動かないときは</h3>
+        <p>アプリ名と、できれば端末とOSのバージョンを書いて送ってください。</p>
+        <a class="mail" href="mailto:takepenco+support@gmail.com?subject=%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88&amp;body=%E3%82%A2%E3%83%97%E3%83%AA%E5%90%8D%EF%BC%9A%0A%E7%AB%AF%E6%9C%AB%EF%BC%9A%0AOS%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%EF%BC%9A%0A%0A%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A">takepenco+support@gmail.com</a>
+        <!-- 将来アプリ専用窓口が必要になったら、同じ形式で +copin などのmailtoを追加する -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p class="sig">© 2026 Eri <span aria-hidden="true">—</span> PRODUCT DOCTOR</p>
+    <p><a href="mailto:takepenco+work@gmail.com?subject=%E4%BB%95%E4%BA%8B%E3%81%AE%E7%9B%B8%E8%AB%87">仕事の相談：takepenco+work@gmail.com</a></p>
+  </footer>
+</body>
+</html>
