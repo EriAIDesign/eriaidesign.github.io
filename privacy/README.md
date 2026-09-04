@@ -8,10 +8,10 @@
 - `https://eriaidesign.github.io/NowWall/privacy`
 - `https://eriaidesign.github.io/SakuSen/privacy`
 - `https://eriaidesign.github.io/EbiKani/privacy`
+- `https://eriaidesign.github.io/Calppy/privacy`
 
 個別サイトを持たないアプリの既存本文をこのリポジトリで管理する場合は、次の場所を使う。
 
-- `calppy.html`
 - `wasurecha.html`
 
 ページを配置して内容を確認したあと、`index.html` の対応する `span.todo-link` を `a.btn` に置き換えてリンクを有効にする。
