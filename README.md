@@ -9,6 +9,7 @@ Eriが作ったアプリや道具をまとめる、GitHub Pages向けの静的�
 - `js/main.js` — 困りごとに線を引く演出
 - `icons/` — アプリのアイコン画像
 - `privacy/` — アプリごとのプライバシーポリシー
+- `support/` — アプリごとのサポートページ
 - `assets/` — favicon、Apple Touch Icon、OGP画像
 
 ## アプリを追加する

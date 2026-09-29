@@ -353,6 +353,91 @@ footer .sig {
   letter-spacing: 0.02em;
 }
 
+/* ---------- privacy / support pages ---------- */
+.subpage .page-header {
+  padding-block: 60px 28px;
+}
+
+.subpage .back-link {
+  display: inline-block;
+  margin-bottom: 22px;
+  color: var(--dim);
+  font-size: 14px;
+}
+
+.subpage .page-header h1 {
+  margin-bottom: 10px;
+  font-size: clamp(28px, 5vw, 38px);
+}
+
+.subpage .page-intro {
+  max-width: 42em;
+  color: var(--dim);
+  font-size: 16px;
+}
+
+.legal {
+  padding-block: 12px 48px;
+}
+
+.legal h2 {
+  display: block;
+  margin: 34px 0 8px;
+  color: var(--ink);
+  font-size: 17px;
+  letter-spacing: 0;
+}
+
+.legal h2::after {
+  display: none;
+}
+
+.legal p,
+.legal li {
+  font-size: 16px;
+}
+
+.legal ul {
+  padding-left: 1.4em;
+}
+
+.legal li + li {
+  margin-top: 6px;
+}
+
+.legal .meta {
+  color: var(--dim);
+  font-size: 14px;
+}
+
+.support-details {
+  display: grid;
+  gap: 16px;
+  padding-block: 12px 48px;
+}
+
+.support-details .contact {
+  margin-top: 0;
+}
+
+.support-details h2 {
+  margin-bottom: 12px;
+}
+
+.support-details ul {
+  padding-left: 1.4em;
+  font-size: 16px;
+}
+
+.support-details li + li {
+  margin-top: 5px;
+}
+
+.support-note {
+  color: var(--dim);
+  font-size: 14px;
+}
+
 @media (max-width: 520px) {
   .wrap {
     width: min(100% - 36px, var(--max-width));
@@ -381,6 +466,10 @@ footer .sig {
 
   .contact {
     padding: 22px;
+  }
+
+  .subpage .page-header {
+    padding-top: 42px;
   }
 }
 
