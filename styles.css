@@ -217,6 +217,14 @@ h2::after {
   opacity: 0.55;
 }
 
+.upcoming .product.full-strike.seen .symptom::after {
+  transform: scaleX(1);
+}
+
+.upcoming .product.full-strike .symptom::after {
+  opacity: 1;
+}
+
 .name {
   display: flex;
   flex-wrap: wrap;
