@@ -6,4 +6,4 @@
 
 - `tametoko.html`
 
-問い合わせ先は共通の `takepenco+support@gmail.com` を使い、mailtoの件名にアプリ名を含める。
+問い合わせ先は共通の `support@jenifactory.net` を使い、mailtoの件名にアプリ名を含める。
