@@ -446,6 +446,52 @@ footer .sig {
   font-size: 14px;
 }
 
+.language-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin-top: 22px;
+  font-size: 14px;
+}
+
+.bilingual-content > .language-section {
+  padding-block: 12px 40px;
+  scroll-margin-top: 24px;
+}
+
+.bilingual-content > .language-section + .language-section {
+  padding-top: 36px;
+  border-top: 1px solid var(--line);
+}
+
+.bilingual-content .language-title {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.language-section h3 {
+  margin: 28px 0 8px;
+  font-family: var(--display);
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.language-section p + p {
+  margin-top: 14px;
+}
+
+.language-section .contact {
+  margin-block: 26px;
+}
+
+.language-section .contact h3 {
+  margin-top: 0;
+}
+
+.language-section .contact p:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 520px) {
   .wrap {
     width: min(100% - 36px, var(--max-width));

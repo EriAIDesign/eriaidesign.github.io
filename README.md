@@ -10,6 +10,8 @@ Eriが作ったアプリや道具をまとめる、GitHub Pages向けの静的�
 - `icons/` — アプリのアイコン画像
 - `privacy/` — アプリごとのプライバシーポリシー
 - `support/` — アプリごとのサポートページ
+- `graphooo/index.html` — Graphoooのサポート（日英併記、`/graphooo/`）
+- `graphooo/privacy/index.html` — Graphoooのプライバシーポリシー（日英併記、`/graphooo/privacy/`）
 - `assets/` — favicon、Apple Touch Icon、OGP画像
 
 ## アプリを追加する
@@ -20,5 +22,7 @@ Eriが作ったアプリや道具をまとめる、GitHub Pages向けの静的�
 4. 個別サイトにポリシーがある場合は、その `/privacy` URLを設定する。このサイトで管理する場合だけ `privacy/<slug>.html` に既存本文を配置する。
 
 未確定URLに `#` や推測したURLは入れず、`todo-link` と `TODO` コメントを残す。
+
+Graphoooは公開状況とApp Store URLが未確認のため「まもなく」に掲載。公開時は該当の `article.product` を「公開中」へ移し、タグの「準備中」を外してストアリンクを追加する。アイコンは現在「G」のフォールバックを使用。サポートとポリシーは上記の `graphooo/` 配下で独立して管理する。
 
 現在、「そのほか」にはEri名義のnoteのみ掲載している。ハンドルネームで公開している制作物や、掲載品質を確認中の制作物は含めない。
